@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/Tonksthebear/gaggle
-  revision: d707de471b8cf34abe03b32764d78ce7db4faa9f
+  revision: cbb96c346de369838350624a6b4e2f66ca144cef
   specs:
-    gaggle (0.1.11)
+    gaggle (0.1.12)
       classy-yaml
       rails (>= 7.2)
       strings-ansi
