@@ -4,6 +4,7 @@ This is a preconfigured Rails app to run [Gaggle](https://github.com/Tonksthebea
 
 After copying the repo, run:
 - `bundle install`
+- `bin/rails gaggle:install`
 - `bin/rails db:prepare`
 - `bin/dev`
 
