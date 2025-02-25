@@ -2,6 +2,11 @@
 
 This is a preconfigured Rails app to run [Gaggle](https://github.com/Tonksthebear/gaggle).
 
+## Installation
+
+Install and configure [Goose CLI](https://block.github.io/goose/docs/getting-started/installation/)
+Ensure you are running Ruby 3.2
+
 After copying the repo, run:
 - `bundle install`
 - `bin/rails db:prepare`
