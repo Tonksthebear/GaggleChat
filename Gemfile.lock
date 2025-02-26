@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/Tonksthebear/gaggle
-  revision: d707de471b8cf34abe03b32764d78ce7db4faa9f
+  revision: 62f2cb8ea7b5f76e871d08dbce4b8c279fb43f93
   specs:
-    gaggle (0.1.11)
+    gaggle (0.1.13)
       classy-yaml
       rails (>= 7.2)
+      redcarpet
       strings-ansi
       turbo-rails
 
@@ -263,6 +264,7 @@ GEM
     rake (13.2.1)
     rdoc (6.12.0)
       psych (>= 4.0.0)
+    redcarpet (3.6.1)
     regexp_parser (2.10.0)
     reline (0.6.0)
       io-console (~> 0.5)
@@ -278,7 +280,7 @@ GEM
       rubocop-ast (>= 1.38.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.38.0)
+    rubocop-ast (1.38.1)
       parser (>= 3.3.1.0)
     rubocop-performance (1.24.0)
       lint_roller (~> 1.1)
