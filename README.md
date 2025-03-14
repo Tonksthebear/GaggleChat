@@ -13,3 +13,10 @@ After copying the repo, run:
 - `bin/dev`
 
 The URL `localhost:60053` should bring you to the Gaggle homepage.
+
+## Updating
+
+Pull the latest changes from the repo and run:
+- `bundle install`
+- `bin/rails mcp:rails:generate_server`
+- `bin/dev`
