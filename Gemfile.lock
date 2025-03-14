@@ -10,15 +10,6 @@ GIT
       strings-ansi
       turbo-rails
 
-GIT
-  remote: https://github.com/Tonksthebear/mcp-rails
-  revision: 8bbd97bba092ba7f341e40d48e8ca02c1e2cd779
-  specs:
-    mcp-rails (0.4.11)
-      httparty
-      mcp-rb (~> 0.3.2)
-      rails (>= 7.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +174,10 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
+    mcp-rails (0.4.11)
+      httparty
+      mcp-rb (~> 0.3.2)
+      rails (>= 7.2)
     mcp-rb (0.3.2)
     mini_mime (1.1.5)
     minitest (5.25.5)
@@ -410,7 +405,6 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
-  mcp-rails (~> 0.4)!
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
