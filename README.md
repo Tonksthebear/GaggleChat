@@ -10,6 +10,7 @@ Ensure you are running Ruby 3.2
 After copying the repo, run:
 - `bundle install`
 - `bin/rails db:prepare`
+- `bin/rails mcp:rails:generate_server`
 - `bin/dev`
 
 The URL `localhost:60053` should bring you to the Gaggle homepage.
