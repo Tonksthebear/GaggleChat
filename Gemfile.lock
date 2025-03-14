@@ -1,14 +1,23 @@
 GIT
   remote: https://github.com/Tonksthebear/gaggle
-  revision: a00fec8f4d3eeda675881d123f272042936c9d01
+  revision: 1ed98650e07a62fbe62486a10e4923916526db6a
   specs:
-    gaggle (0.2.1)
+    gaggle (0.2.2)
       classy-yaml
       mcp-rails (>= 0.4)
       rails (>= 7.2)
       redcarpet
       strings-ansi
       turbo-rails
+
+GIT
+  remote: https://github.com/Tonksthebear/mcp-rails
+  revision: f8ad93e3c5b5211aff21ac3876a742afd02556ca
+  specs:
+    mcp-rails (0.4.11)
+      httparty
+      mcp-rb (~> 0.3.2)
+      rails (>= 7.2)
 
 GEM
   remote: https://rubygems.org/
@@ -174,10 +183,6 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
-    mcp-rails (0.4.11)
-      httparty
-      mcp-rb (~> 0.3.2)
-      rails (>= 7.2)
     mcp-rb (0.3.2)
     mini_mime (1.1.5)
     minitest (5.25.5)
@@ -405,6 +410,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
+  mcp-rails!
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
