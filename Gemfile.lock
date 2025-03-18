@@ -82,6 +82,8 @@ GEM
     benchmark (0.4.0)
     bigdecimal (3.1.9)
     bindex (0.8.1)
+    bootsnap (1.18.4)
+      msgpack (~> 1.2)
     brakeman (7.0.0)
       racc
     builder (3.3.0)
@@ -174,6 +176,7 @@ GEM
     mcp-rb (0.3.3)
     mini_mime (1.1.5)
     minitest (5.25.5)
+    msgpack (1.8.0)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
     net-imap (0.5.6)
@@ -319,7 +322,7 @@ GEM
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)
-    solid_queue (1.1.3)
+    solid_queue (1.1.4)
       activejob (>= 7.1)
       activerecord (>= 7.1)
       concurrent-ruby (>= 1.3.1)
@@ -389,6 +392,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bootsnap
   brakeman
   capybara
   debug
